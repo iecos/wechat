@@ -1,0 +1,21 @@
+{
+  "name": "iecos/wechat",
+  "description": "WeChat SDK",
+  "license": "MIT",
+  "keywords": ["wechat", "weixin", "weixin-sdk", "sdk"],
+  "authors": [
+    {
+      "name": "ZuoQ",
+      "homepage": "https://github.com/zuoqianzhou",
+      "email": "zuo@iecossoft.com"
+    }
+  ],
+  "require": {
+    "php":">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "iEcosWeChat\\": "src/"
+    }
+  }
+}
